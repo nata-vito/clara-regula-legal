@@ -166,11 +166,11 @@ function Index() {
           <SectionTitle label="Funcionalidades" title="O que a Clara faz" subtitle="Ferramentas pensadas para profissionais que trabalham com regularização." />
           <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: ClipboardCheck, title: "Monta checklist personalizado", desc: "Lista exata dos documentos e requisitos para o seu tipo de processo." },
-              { icon: FileSearch, title: "Revisa documentos", desc: "Verifica se a documentação está completa e identifica pendências." },
-              { icon: FileText, title: "Preenche procurações", desc: "Gera minutas de procuração prontas para assinatura." },
+              { icon: ClipboardCheck, title: "Monta checklist personalizado", desc: "Indica quais documentos e requisitos você precisa reunir para o seu tipo de processo." },
+              { icon: MessageCircle, title: "Conversa em tempo real", desc: "Tire dúvidas por texto ou voz sobre regularização e licenciamento a qualquer momento." },
               { icon: MessageSquareWarning, title: "Explica exigências", desc: "Traduz \"comunique-se\" da prefeitura em ações claras e objetivas." },
               { icon: RouteIcon, title: "Orienta protocolo", desc: "Indica o fluxo correto para protocolar sem surpresas." },
+              { icon: Target, title: "Orientação personalizada", desc: "Respostas adaptadas ao seu caso específico de regularização." },
             ].map(({ icon: Icon, title, desc }) => (
               <motion.div key={title} variants={fadeUp} className="flex gap-4 bg-card rounded-2xl p-6 border border-border hover:shadow-md hover:border-accent/30 transition-all">
                 <div className="flex-shrink-0 w-11 h-11 rounded-xl bg-accent/10 flex items-center justify-center">
