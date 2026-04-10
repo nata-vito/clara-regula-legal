@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Clara — Assistente de IA para Regularização Imobiliária" },
+      { title: "Clara AI" },
       {
         name: "description",
         content:
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Clara — Assistente de IA para Regularização Imobiliária",
+        content: "Clara AI",
       },
       {
         property: "og:description",
