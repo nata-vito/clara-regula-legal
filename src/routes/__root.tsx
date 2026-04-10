@@ -50,7 +50,7 @@ export const Route = createRootRoute({
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" },
     ],
     scripts: [
-      { src: "https://elevenlabs.io/convai-widget/index.js", async: true },
+      { src: "https://unpkg.com/@elevenlabs/convai-widget-embed", async: true, type: "text/javascript" },
     ],
   }),
   shellComponent: RootShell,
